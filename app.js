@@ -62,4 +62,45 @@ $(() => {
    const $li5 = $("<li>")
    $li5.text("Berttie Bott's Every Flavor [Jelly] Beans")
    $ul.append($li5)
+
+   const $h5 = $("<h5>")
+   $h5.text("Spring 2017")
+   $container.append($h5)
+
+   const $table = $("<table>")
+   $container.append($table)
+
+   const $thred = $("<thred>")
+   $table.append($thred)
+
+   const $th = $("<th>")
+   $th.text("Day")
+   $thred.append($th)
+
+   const $th2 = $("<th>")
+   $th2.text("Classes")
+   $thred.append($th2)
+
+   const $tr = $("<tr>")
+   $table.append($tr)
+
+   const $td = $("<td>")
+   $td.text("Monday")
+   $tr.append($td)
+
+   const $td2 = $("<td>")
+   $td2.text("Herbology, Divination, History of Magic, Charms, Potions, Transfiguration, Defense Against the Dark Arts, Quidditch practice, etc.")
+   $tr.append($td2)
+
+   const $tr2 = $("<tr>")
+   $table.append($tr2)
+
+   const $tr3 = $("<tr>")
+   $table.append($tr3)
+
+   const $tr4 = $("<tr>")
+   $table.append($tr4)
+
+   const $tr5 = $("<tr>")
+   $table.append($tr5)
 });

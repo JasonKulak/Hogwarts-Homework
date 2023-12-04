@@ -10,3 +10,10 @@ body {background-color: #f8f7ff;
 ul {
     list-style-type: none;
 }
+
+table {
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+    text-align: center;
+}
