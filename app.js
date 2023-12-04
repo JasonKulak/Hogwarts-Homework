@@ -26,8 +26,40 @@ $(() => {
     const $input = $("input")
     const val = $input.val();
     $h4.addClass("cat").text(val);
-    // const wand = $input.wand();
-    // $h4.text("Hawthorn Wand with Dragon Heartstring Core")
-    
+    // const $h4a = $("<h4>")
+    // $h4a.text("Hawthorn Wand with Dragon Heartstring Core")
+    // appendChild????
     $container.append($h4)
+
+    const $ul = $("<ul>")
+    //$ul = setAttribute("storage", "trunk");
+    $container.append($ul)
+    
+   const $li = $("<li>")
+   $li.text("butter beer")
+   $ul.append($li)
+
+   const $li1 = $("<li>")
+   $li1.text("invisibility cloak")
+   $li1.addClass("secret")
+   $ul.append($li1)
+
+   const $li2 = $("<li>")
+   $li2.text("magic map")
+   $li2.addClass("secret")
+   $ul.append($li2)
+
+   const $li3 = $("<li>")
+   $li3.text("time turner")
+   $li3.addClass("secret")
+   $ul.append($li3)
+
+   const $li4 = $("<li>")
+   $li4.text("leash")
+   $li4.addClass("cat")
+   $ul.append($li4)
+
+   const $li5 = $("<li>")
+   $li5.text("Berttie Bott's Every Flavor [Jelly] Beans")
+   $ul.append($li5)
 });
