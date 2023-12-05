@@ -50,7 +50,7 @@ $(() => {
     ////////
 
     const $ul = $("<ul>")
-    //$ul.setAttribute("storage", "trunk");
+    .attr("storage", "trunk")
     $container.append($ul)
     
    const $li = $("<li>")
@@ -151,16 +151,17 @@ $(".secret").show("slow")
 $li4.addClass("cabbage")
 $li4.removeClass("cabbage")
 
-
 ////////
 //Year 7
 ////////
 
+$h5.replaceWith("Fall 2018")
 
+const $li6 = $("<li>")
+$li6.text("Butter Beer")
+$ul.prepend($li6)
 
-
-
-
+.attr("storage", "chest")
 });
 
 
