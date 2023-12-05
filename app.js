@@ -26,13 +26,14 @@ $(() => {
     const $input = $("input")
     const val = $input.val();
     $h4.addClass("cat").text(val);
-    // const $h4a = $("<h4>")
-    // $h4a.text("Hawthorn Wand with Dragon Heartstring Core")
-    // appendChild????
     $container.append($h4)
 
+    const $h4a = $("<h4>")
+    $h4a.text("Hawthorn Wand with Dragon Heartstring Core")
+    $container.append($h4a)
+
     const $ul = $("<ul>")
-    //$ul = setAttribute("storage", "trunk");
+    //$ul.setAttribute("storage", "trunk");
     $container.append($ul)
     
    const $li = $("<li>")
@@ -103,4 +104,18 @@ $(() => {
 
    const $tr5 = $("<tr>")
    $table.append($tr5)
+
+   $h4a.remove()
+
+   $li.remove()
+
+   const $h4b = $("<h4>")
+   $h4b.text("I HAVE A NEW WAND!!! Holly Wand with Unicorn Hair Core")
+   $h4b.insertAfter($h4)
+
+   $h4.remove()
+    $h4.insertAfter($table)
+    $h4.insertBefore($h4b)
+
+
 });
